@@ -4,12 +4,12 @@ Welcome to the Object Detection Project! In this tutorial, we focus on the task 
 
 ## Task Overview
 
-### 1. Data Preparation
+### 0. Data Preparation
    - Download the SVHN Dataset in YOLO format.
    - Split the dataset into train, validation, and test sets.
    - Initialize [Weights & Biases (WandB)](https://docs.wandb.ai/quickstart) for experiment tracking.
 
-### 2. Fine-tuning an Object Detector
+### 1. Fine-tuning an Object Detector
    - Train a YOLOv5 model using pre-trained weights from a specified repository.
    - Log training progress with WandB.
    - Evaluate the model's performance on the test set:
@@ -17,13 +17,11 @@ Welcome to the Object Detection Project! In this tutorial, we focus on the task 
      - Plot Precision-Recall (PR) curve.
    - Report performance metrics using AP@[0.50:0.5:0.95], AP50, and AP75.
 
-### 3. Data Augmentation Techniques
+### 2. Data Augmentation Techniques
    - Apply suitable data augmentation techniques to enhance model generalization.
    - Train the object detection model with augmented data.
    - Report performance metrics including IoU, AP, and mAP on the test set.
 
-### 4. Model Comparison
-   - Compare and comment on the performance of different trained architectures.
 
 ## Highlights
 - **YOLOv5 Model:** Train an object detector using YOLOv5 model.
